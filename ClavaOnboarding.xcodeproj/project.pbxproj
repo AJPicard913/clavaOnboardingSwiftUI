@@ -15,6 +15,8 @@
 		0916DACD25C1A41C00F0627E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DAA225C1A41C00F0627E /* ContentView.swift */; };
 		0916DACE25C1A41C00F0627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0916DAA325C1A41C00F0627E /* Assets.xcassets */; };
 		0916DACF25C1A41C00F0627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0916DAA325C1A41C00F0627E /* Assets.xcassets */; };
+		0916DAEB25C1A7B300F0627E /* OnboardOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DAEA25C1A7B300F0627E /* OnboardOne.swift */; };
+		0916DAEC25C1A7B300F0627E /* OnboardOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DAEA25C1A7B300F0627E /* OnboardOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		0916DAC325C1A41C00F0627E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0916DAC725C1A41C00F0627E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0916DAC925C1A41C00F0627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0916DAEA25C1A7B300F0627E /* OnboardOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				0916DAA125C1A41C00F0627E /* ClavaOnboardingApp.swift */,
 				0916DAA225C1A41C00F0627E /* ContentView.swift */,
+				0916DAEA25C1A7B300F0627E /* OnboardOne.swift */,
 				0916DAA325C1A41C00F0627E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0916DAEB25C1A7B300F0627E /* OnboardOne.swift in Sources */,
 				0916DACC25C1A41C00F0627E /* ContentView.swift in Sources */,
 				0916DACA25C1A41C00F0627E /* ClavaOnboardingApp.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0916DAEC25C1A7B300F0627E /* OnboardOne.swift in Sources */,
 				0916DACD25C1A41C00F0627E /* ContentView.swift in Sources */,
 				0916DACB25C1A41C00F0627E /* ClavaOnboardingApp.swift in Sources */,
 			);
