@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0908C65025CDA47C001099DF /* OnboardingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908C64F25CDA47C001099DF /* OnboardingTwo.swift */; };
+		0908C65125CDA47C001099DF /* OnboardingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908C64F25CDA47C001099DF /* OnboardingTwo.swift */; };
+		0908C65725CDA62B001099DF /* OnboardingThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908C65625CDA62B001099DF /* OnboardingThree.swift */; };
+		0908C65825CDA62B001099DF /* OnboardingThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0908C65625CDA62B001099DF /* OnboardingThree.swift */; };
 		0916DABD25C1A41C00F0627E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DABC25C1A41C00F0627E /* Tests_iOS.swift */; };
 		0916DAC825C1A41C00F0627E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DAC725C1A41C00F0627E /* Tests_macOS.swift */; };
 		0916DACA25C1A41C00F0627E /* ClavaOnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916DAA125C1A41C00F0627E /* ClavaOnboardingApp.swift */; };
@@ -37,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0908C64F25CDA47C001099DF /* OnboardingTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTwo.swift; sourceTree = "<group>"; };
+		0908C65625CDA62B001099DF /* OnboardingThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingThree.swift; sourceTree = "<group>"; };
 		0916DAA125C1A41C00F0627E /* ClavaOnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClavaOnboardingApp.swift; sourceTree = "<group>"; };
 		0916DAA225C1A41C00F0627E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0916DAA325C1A41C00F0627E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +110,8 @@
 				0916DAA125C1A41C00F0627E /* ClavaOnboardingApp.swift */,
 				0916DAA225C1A41C00F0627E /* ContentView.swift */,
 				0916DAEA25C1A7B300F0627E /* OnboardOne.swift */,
+				0908C64F25CDA47C001099DF /* OnboardingTwo.swift */,
+				0908C65625CDA62B001099DF /* OnboardingThree.swift */,
 				0916DAA325C1A41C00F0627E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -315,6 +323,8 @@
 				0916DAEB25C1A7B300F0627E /* OnboardOne.swift in Sources */,
 				0916DACC25C1A41C00F0627E /* ContentView.swift in Sources */,
 				0916DACA25C1A41C00F0627E /* ClavaOnboardingApp.swift in Sources */,
+				0908C65725CDA62B001099DF /* OnboardingThree.swift in Sources */,
+				0908C65025CDA47C001099DF /* OnboardingTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +335,8 @@
 				0916DAEC25C1A7B300F0627E /* OnboardOne.swift in Sources */,
 				0916DACD25C1A41C00F0627E /* ContentView.swift in Sources */,
 				0916DACB25C1A41C00F0627E /* ClavaOnboardingApp.swift in Sources */,
+				0908C65825CDA62B001099DF /* OnboardingThree.swift in Sources */,
+				0908C65125CDA47C001099DF /* OnboardingTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

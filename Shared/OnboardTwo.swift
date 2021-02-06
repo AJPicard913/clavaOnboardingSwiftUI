@@ -7,32 +7,29 @@
 
 import SwiftUI
 
-struct OnboardOne: View {
+struct OnboardTwo: View {
     var body: some View {
         VStack {
             
             // header
-            Header()
+            HeaderTwo()
             
             // Images
-            ImagesAndText()
+            ImagesAndTextTwo()
             
             // Card Circles
-            NavCircles()
+            NavCirclesTwo()
         }
-        .frame(maxHeight: .infinity)
-        .background(Color(#colorLiteral(red: 0.5130136609, green: 0.09760511667, blue: 1, alpha: 1)))
-        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct OnboardOne_Previews: PreviewProvider {
+struct OnboardTwo_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardOne()
+        OnboardTwo()
     }
 }
 
-struct Header: View {
+struct HeaderTwo: View {
     var body: some View {
         HStack {
             Spacer()
@@ -42,7 +39,7 @@ struct Header: View {
                     .bold()
             }
             .frame(width: 80, height: 34)
-            .background(Color(#colorLiteral(red: 0.2835855484, green: 0.05096509308, blue: 0.5879631042, alpha: 1)))
+            .background(Color(#colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)))
             .foregroundColor(.white)
             .cornerRadius(10)
             
@@ -53,7 +50,7 @@ struct Header: View {
     }
 }
 
-struct ImagesAndText: View {
+struct ImagesAndTextTwo: View {
     var body: some View {
         VStack{
             ZStack {
@@ -87,7 +84,7 @@ struct ImagesAndText: View {
     }
 }
 
-struct NavCircles: View {
+struct NavCirclesTwo: View {
     var body: some View {
         HStack {
             Circle()
